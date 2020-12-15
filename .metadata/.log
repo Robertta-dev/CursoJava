@@ -1195,3 +1195,9 @@ Java Model Exception: Java Model Status [FuncionarioAutenticavel {key=LAutentica
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SUBENTRY 1 org.eclipse.jdt.core 4 969 2020-12-15 10:11:29.899
 !MESSAGE FuncionarioAutenticavel {key=LAutenticavel~FuncionarioAutenticavel;} [in [Working copy] Autenticavel.java [in <default> [in src [in bettabank-herdado]]]] does not exist
+
+!ENTRY org.eclipse.help.base 2 0 2020-12-15 12:41:48.234
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jdt.doc.user_3.15.800.v20200828-1432 [209]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2020-12-15 12:41:48.251
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.platform.doc.user_4.17.0.v20200831-0727 [331]'. The index should be rebuilt with Lucene 8.4.1
