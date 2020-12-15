@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+    <fullyQualifiedTypeName name="Funcionario"/>
+    <fullyQualifiedTypeName name="ContaCorrente"/>
+    <fullyQualifiedTypeName name="ContaPoupanca"/>
+    <fullyQualifiedTypeName name="Gerente"/>
+    <fullyQualifiedTypeName name="SistemaInterno"/>
+    <fullyQualifiedTypeName name="FuncionarioAutenticavel"/>
+    <fullyQualifiedTypeName name="Administrador"/>
+    <fullyQualifiedTypeName name="Designer"/>
+    <fullyQualifiedTypeName name="Autenticavel"/>
+    <fullyQualifiedTypeName name="Tributavel"/>
+    <fullyQualifiedTypeName name="AutenticacaoUtil"/>
+</qualifiedTypeNameHistroy>
