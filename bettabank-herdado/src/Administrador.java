@@ -1,4 +1,4 @@
-public class Administrador extends FuncionarioAutenticavel {
+public class Administrador extends Funcionario implements Autenticavel {
 	
 	private int senha;
 
@@ -21,10 +21,8 @@ public class Administrador extends FuncionarioAutenticavel {
 	public double getBonificacao() {
 		return 100;
 	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	
+	public int getSenha(int senha) {
+		return senha;
 	}
-
 }
