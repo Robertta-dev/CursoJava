@@ -1,6 +1,7 @@
 public class Trainee extends Funcionario{
 	
 	public double getBonificacao() {
-		return super.getBonificacao() + super.salario;
+		System.out.println("Chamando método de bonificação do Trainee " + this.nome);
+		return super.salario + 100;
 	}
 }

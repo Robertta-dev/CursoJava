@@ -1,14 +1,13 @@
-//classe abstrata incluida  
+//classe abstract incluida  // ñ pode estanciar
 public abstract class Funcionario {          
 
 	protected String nome;
 	protected String cpf;
 	protected double salario;
 
-	public double getBonificacao() {
-		return this.salario * 0.;
-
-	}                                   
+	public abstract double getBonificacao();
+		//return this.salario * 0.;
+			//metodo abstract incluido   // ñ há implementação                               
 
 	public String getNome() {
 		return nome;
@@ -33,5 +32,4 @@ public abstract class Funcionario {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
-
 }
