@@ -1,11 +1,11 @@
+//Incluindo Classe abstract
 
-
-public class Conta {
-		private double saldo;
-		private int	agencia;
-		private int	numero;
-		private Cliente	titular;
-		private static int total = 0;
+public abstract class Conta {
+		protected double saldo;
+		protected int	agencia;
+		protected int	numero;
+		protected Cliente	titular;
+		protected static int total = 0;
 		
 		public Conta(int agencia, int numero) {
 			this.agencia = agencia;

@@ -9,10 +9,14 @@ public class TesteConta {
 		ContaPoupanca cp = new ContaPoupanca(2222, 1235678);
 		cp.deposita(2000);
 		
-		ContaCorrente c1 = new ContaCorrente(4444, 3456734);
+		ContaCorrente c1 = new ContaCorrente(3333, 3456734);
 		c1.deposita(6000);
 		
+		ContaPoupanca cp2 = new ContaPoupanca(4444, 6754321);
+		cp2.deposita(50);
 		cp.transfere(500, cc);
+		cc.transfere(600, cp2);
+		
 		
 		System.out.println(cc.getSaldo());
 

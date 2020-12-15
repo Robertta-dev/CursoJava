@@ -1,5 +1,5 @@
-public class Gerente extends FuncionarioAutenticavel {
-
+public class Administrador extends FuncionarioAutenticavel {
+	
 	private int senha;
 
 	public boolean autentica(int senha) {
@@ -8,18 +8,23 @@ public class Gerente extends FuncionarioAutenticavel {
 		} else {
 			return false;
 		}
-	}	
-	public int getSenha() {
-		return senha;
 	}
-
 	public void setSenha(int senha) {
 		this.senha = senha;
 	}
 
-	public double getBonificacao() {
-		System.out.println("Chamando método de bonificação do Gerente " + this.nome);
-		return super.salario + 400;
-		
+	public int getSenha() {
+		return senha;
 	}
+
+
+	public double getBonificacao() {
+		return 100;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
 }
