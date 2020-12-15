@@ -1,0 +1,11 @@
+package novoBanco;
+
+public class TestaExercicio {
+		  public static void main(String[] args) {
+		    Cliente2 cliente = new Cliente2();
+		    cliente2.nome = "José";
+		    cliente2.cpf = "12312312312";
+		    cliente2.idade = 49;
+		  }
+		}
+}

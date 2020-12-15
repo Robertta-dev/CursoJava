@@ -1,0 +1,11 @@
+
+public class TesteFuncionario {
+	
+	public static void main(String[] args) {
+	
+		Funcionario renan = Funcionario("Renan", "09009009009", 5000);
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package bettabank;
+
+public class TestaMetodo {
+	
+	public static void main(String[] args) {
+		Conta contaDaCaliope = new Conta();
+		contaDaCaliope.deposita(50);
+		System.out.println(contaDaCaliope);
+		contaDaCaliope.saca(40);
+		System.out.println(contaDaCaliope);
+	}
+	{
+		
+	}
+}

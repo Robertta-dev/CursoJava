@@ -1,0 +1,24 @@
+package bettabank;
+
+public class TestaMetodo {
+	
+	public static void main(String[] args) {
+		Conta contaDaCaliope = new Conta();
+		contaDaCaliope.deposita(2000);
+		contaDaCaliope.deposita(500);
+		System.out.println(contaDaCaliope.saldo);
+		
+		boolean conseguiuRetirar = contaDaCaliope.saca(40);
+		System.out.println(contaDaCaliope.saldo);
+		System.out.println(conseguiuRetirar);
+		
+		Conta contaDaAna = new Conta();
+		contaDaAna.deposita(2000);
+		System.out.println(contaDaAna.saldo);
+		
+		contaDaAna.transfere(300, contaDaCaliope);
+		
+	///	System.out.println("Sobrou na conta: " + contaDaAna.saldo);
+	}
+		}
+

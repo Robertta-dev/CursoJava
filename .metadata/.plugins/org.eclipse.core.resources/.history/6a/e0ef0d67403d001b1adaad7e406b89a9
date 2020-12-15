@@ -1,0 +1,8 @@
+package novoBanco;
+
+public class Cliente2 {
+	    String nome;
+	    private String cpf;
+	    int idade;
+	}
+

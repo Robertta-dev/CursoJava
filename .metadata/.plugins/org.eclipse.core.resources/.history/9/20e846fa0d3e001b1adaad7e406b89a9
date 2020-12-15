@@ -1,0 +1,17 @@
+
+
+public class TesteFuncionario {
+	
+	public static void main(String[] args) {
+	
+		Funcionario renan = new Funcionario();
+		renan.setNome("Renan");
+		renan.setCpf("00000099900");
+		renan.setSalario(5000);
+		
+		
+		
+		
+	}
+
+}

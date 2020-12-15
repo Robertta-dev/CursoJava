@@ -1,0 +1,12 @@
+public class Designer extends Funcionario {
+	
+
+
+	public static void main(String[] args) {
+		
+		public double getBonificacao() {
+			return super.getBonificacao() + super.salario;
+		}
+
+	}
+}

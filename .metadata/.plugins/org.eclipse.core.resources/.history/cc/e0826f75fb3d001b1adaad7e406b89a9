@@ -1,0 +1,35 @@
+
+
+
+public class Gerente extends Funcionario {
+		
+	private int senha;
+	
+	public Gerente(String nome, String cpf, double salario) {
+		this.nome = nome;
+		this.cpf = cpf;
+		this.salario = salario;
+		
+		System.out.println("Gerente adicionado! Nome: " + this.nome + " CPF: " + this.cpf + " Salario: " + this.salario );
+
+	public int getSenha() {
+		return senha;
+	}
+
+	public void setSenha(int senha) {
+		this.senha = senha;
+	}
+	
+	public boolean autentica(int senha) {
+	    if (this.senha == senha) {
+	        return true;
+	    } else {
+	        return false;
+	    }
+	}
+	
+	
+	
+	
+	
+}

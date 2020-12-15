@@ -1,0 +1,20 @@
+package novoBanco;
+
+public class TestaBanco {
+	
+	public static void main(String[] args) {
+		Cliente betta = new Cliente();
+		caliope.titular.nome = "Calíope Longoni";
+		caliope.cpf = "255.255.255.01";
+		caliope.profissao = "Estudante";
+	
+		
+		Conta contaDaMarcela = new Conta();
+
+		contaDaMarcela.titular = new Cliente();
+		
+		System.out.println(contaDaMarcela);
+	}
+	
+
+}

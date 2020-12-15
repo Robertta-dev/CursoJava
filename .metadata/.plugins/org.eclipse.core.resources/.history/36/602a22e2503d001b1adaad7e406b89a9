@@ -1,0 +1,18 @@
+
+public class TestaGetESet {
+	public static void main(String[] args) {
+		Conta conta = new Conta(987, 9876);
+		conta.setNumero(2552);
+		System.out.println(conta.getNumero());
+		
+		conta.setAgencia(255);
+		System.out.println(conta.getAgencia());
+		
+		conta.deposita(0);
+		
+		Conta contaDaJoanna = new Conta(1234, 123456);
+		Cliente joanna = new Cliente("Joanna", "9876564322", "Estudante");
+		
+		
+	}
+}

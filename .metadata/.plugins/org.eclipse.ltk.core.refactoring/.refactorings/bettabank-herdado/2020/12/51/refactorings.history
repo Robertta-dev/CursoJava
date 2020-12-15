@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;bettabank-herdado/src/ControleBoonificacao.java&apos; to &apos;ControleBonificacao.java&apos;" description="Rename resource &apos;ControleBoonificacao.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ControleBoonificacao.java" name="ControleBonificacao.java" stamp="1607986905094" updateReferences="true"/>
+</session>
