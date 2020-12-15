@@ -3,7 +3,7 @@ public class ControleBonificacao {
 
 	private double soma;
 
-	public void registra(Funcionario f) {
+	public void registra(FuncionarioMod f) {
 		double boni = f.getBonificacao();
 		this.soma = this.soma + boni;
 	}

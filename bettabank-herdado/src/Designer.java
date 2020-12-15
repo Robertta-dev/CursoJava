@@ -1,12 +1,9 @@
 
-	public class Designer extends FuncionarioMod {
-	
-		public Designer(String nome, String cpf, double salario) {
-			super(nome, cpf, salario);
-		}
+public class Designer extends Funcionario {
 
-		
-		public double getBonificacao() {
-			return super.getBonificacao() + super.salario;
-		}
+	
+
+	public double getBonificacao() {
+		return super.getBonificacao() + super.salario;
 	}
+}

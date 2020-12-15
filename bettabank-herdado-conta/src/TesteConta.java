@@ -16,6 +16,7 @@ public class TesteConta {
 		
 		System.out.println(cc.getSaldo());
 
+		c1.saca(100);
 	}
 
 }

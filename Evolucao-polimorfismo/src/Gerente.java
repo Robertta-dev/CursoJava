@@ -1,4 +1,9 @@
-public class Gerente extends Funcionario {
+
+public class Gerente extends FuncionarioMod {
+
+	public Gerente(String nome, String cpf, double salario) {
+		super(nome, cpf, salario);
+	}
 
 	private int senha;
 

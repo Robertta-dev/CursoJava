@@ -7,8 +7,8 @@ public class ContaCorrente extends Conta {
 	}
 	@Override
 	public boolean saca(double valor) {
-		
-		return super.saca(valor);
+		double valorASacar = valor + 0.2;     //incluindo taxa de transferencia
+		return super.saca(valorASacar);
 	}
 
 	public static void main(String[] args) {
