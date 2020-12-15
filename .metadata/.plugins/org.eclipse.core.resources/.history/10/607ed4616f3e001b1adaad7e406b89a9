@@ -10,7 +10,7 @@ public class TesteConta {
 		cp.deposita(2000);
 		
 		ContaCorrente c1 = new ContaCorrente(4444, 3456734);
-		c1.deposita(6000);
+		cc.deposita(6000);
 		
 		cp.transfere(500, cc);
 		
